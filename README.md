@@ -2,7 +2,7 @@
 
 A modern, responsive movie and TV show discovery application built with React and powered by The Movie Database (TMDB) API. Explore trending movies, search for your favorites, and discover detailed information about films and TV series.
 
-![Project Dreamer Movie](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-4.4.5-green) ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-1.9.1-purple)
+![Project Dreamer Movie](https://img.shields.io/badge/React-18.2.0-blue) ![Vite](https://img.shields.io/badge/Vite-4.4.5-green) ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-1.9.1-purple) ![Testing](https://img.shields.io/badge/Testing-Vitest%20%2B%20Playwright-orange) ![Coverage](https://img.shields.io/badge/Coverage-Unit%20%7C%20Integration%20%7C%20E2E-brightgreen)
 
 ## ✨ Features
 
@@ -14,6 +14,9 @@ A modern, responsive movie and TV show discovery application built with React an
 - **♾️ Infinite Scroll**: Seamless browsing experience with infinite scroll
 - **⭐ Ratings Display**: Visual rating indicators with circular progress bars
 - **🖼️ Lazy Loading**: Optimized image loading for better performance
+- **🧪 Comprehensive Testing**: Full test coverage with unit, integration, and E2E tests
+- **🚀 Performance Optimized**: Built with Vite for lightning-fast development and builds
+- **🎨 Modern UI/UX**: Clean, intuitive interface with smooth animations
 
 ## 🚀 Installation Instructions
 
@@ -77,6 +80,58 @@ Before you begin, ensure you have the following installed:
 - **Build for Production**: `npm run build` - Creates an optimized production build
 - **Preview Production Build**: `npm run preview` - Preview the production build locally
 - **Lint Code**: `npm run lint` - Run ESLint to check for code quality issues
+
+### Testing
+
+This project includes comprehensive testing coverage with three types of tests:
+
+#### Unit Tests
+
+Test individual components and functions in isolation:
+
+```bash
+npm run test:unit          # Run unit tests
+npm run test              # Run all tests in watch mode
+npm run test:ui           # Run tests with UI interface
+```
+
+#### Integration Tests
+
+Test API interactions and component integration:
+
+```bash
+npm run test:integration  # Run integration tests
+npm run test:coverage     # Run tests with coverage report
+```
+
+#### End-to-End (E2E) Tests
+
+Test complete user workflows using Playwright:
+
+```bash
+npm run test:e2e          # Run E2E tests headless
+npm run test:e2e:headed   # Run E2E tests with browser UI
+npm run test:e2e:ui       # Run E2E tests with Playwright UI
+npm run test:e2e:debug    # Debug E2E tests
+```
+
+#### Run All Tests
+
+```bash
+npm run test:all          # Run all test suites
+npm run test:run          # Run all unit/integration tests once
+```
+
+#### Test Coverage
+
+The project maintains high test coverage across:
+
+- **Components**: React component rendering and interactions
+- **Hooks**: Custom React hooks functionality
+- **API Layer**: TMDB API integration and error handling
+- **User Workflows**: Complete user journeys from search to details
+- **Responsive Design**: Mobile and desktop compatibility
+- **Error Handling**: Graceful error states and fallbacks
 
 ### Navigation
 
@@ -192,6 +247,14 @@ Project-Dreamer-Movie/
 
 - **ESLint** - Code linting and quality assurance
 - **Vite Plugin React** - React support for Vite
+
+### Testing Framework
+
+- **Vitest** - Fast unit testing framework with native ES modules support
+- **Playwright** - End-to-end testing for modern web applications
+- **React Testing Library** - Simple and complete testing utilities for React components
+- **Jest DOM** - Custom Jest matchers for DOM node assertions
+- **User Event** - Fire events the same way the user does
 
 ## 🤝 Contributing Guidelines
 
