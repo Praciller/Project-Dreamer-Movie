@@ -25,3 +25,7 @@ dist-ssr
 
 # Augment AI configuration
 .augment
+
+# Test results and reports
+test-results/
+playwright-report/

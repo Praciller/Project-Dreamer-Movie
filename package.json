@@ -19,9 +19,7 @@
     "test:e2e:headed": "playwright test --headed",
     "test:e2e:debug": "playwright test --debug",
     "test:all": "npm run test:run && npm run test:e2e",
-    "playwright:install": "playwright install",
-    "deploy:netlify": "node deploy-netlify.js",
-    "deploy:netlify:continue": "node continue-netlify-deploy.js"
+    "playwright:install": "playwright install"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
@@ -44,6 +42,8 @@
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
