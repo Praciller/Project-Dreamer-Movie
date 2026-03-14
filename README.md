@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Praciller/pokedex-v1-project.git
+   git clone https://github.com/Praciller/Project-Dreamer-Movie.git
    cd Project-Dreamer-Movie
    ```
 
